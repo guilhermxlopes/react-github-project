@@ -1,0 +1,11 @@
+img {
+  max-width: 20rem;
+  border-radius: 50%;
+}
+
+button {
+  background-color: #1a75c9;
+  padding: 1rem;
+  border: none;
+  border-radius: 7px;
+}

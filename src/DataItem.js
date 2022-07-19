@@ -1,3 +1,5 @@
+import "./DataItem.css";
+
 const DataItem = (props) => {
   return (
     <div>
