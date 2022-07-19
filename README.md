@@ -1,4 +1,4 @@
-# Simple repository to train some coding aspects of React.
+# GitHub React Example
 
 Simple repository to train some coding aspects of React.
 
