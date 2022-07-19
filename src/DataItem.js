@@ -5,11 +5,13 @@ const DataItem = (props) => {
     <div>
       <img src={props.profile_photo} alt="profile"></img>
       <h1>{props.name}</h1>
-      <h3>
-        <i>{props.ig}</i>
-      </h3>
-      <p>Main Language: {props.main_language}</p>
-      <p>Coding Tech: {props.tech}</p>
+      <i>{props.ig}</i>
+      <p>
+        <b>Main Language:</b> {props.main_language}
+      </p>
+      <p>
+        <b>Coding Tech:</b> {props.tech}
+      </p>
       <button>
         <a href="https://github.com/guilhermxlopes">GitHub Profile</a>
       </button>
