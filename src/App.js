@@ -3,9 +3,9 @@ import Container from "./Container";
 const App = () => {
   const github_data = [
     {
-      profile_photo: "",
+      profile_photo: "https://avatars.githubusercontent.com/u/86780871?v=4",
       name: "Guilherme Lopes",
-      ig: "guilhermxlopes",
+      ig: "@guilhermxlopes",
       main_language: "JavaScript",
       tech: "Front-end",
     },
