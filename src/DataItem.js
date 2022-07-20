@@ -1,6 +1,13 @@
+import { useState } from "react";
 import "./DataItem.css";
 
 const DataItem = (props) => {
+  const [title, setTitle] = useState("GitHub Profile");
+
+  const clickHandler = () => {
+    setTitle("You clicked!");
+  };
+
   return (
     <div>
       <img src={props.profile_photo} alt="profile"></img>
@@ -12,8 +19,10 @@ const DataItem = (props) => {
       <p>
         <b>Coding Tech:</b> {props.tech}
       </p>
-      <button>
-        <a href="https://github.com/guilhermxlopes">GitHub Profile</a>
+      <button onClick={clickHandler}>
+        <a target="blank" href="https://github.com/guilhermxlopes">
+          {title}
+        </a>
       </button>
     </div>
   );
