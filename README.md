@@ -1,4 +1,4 @@
-# GitHub React Example
+# Profile React Example
 
 Simple repository to train some coding aspects of React.
 
